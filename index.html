@@ -61,8 +61,10 @@
 									height="420"/></a> 
 								<p>Problem: It is challenging to understand the behavior of deformable bodies in computational settings, unlike rigid ones, due to the lack of sufficient computational power to calculate deformable objects in real time.</p>
 								<p>One potential solution: Use the dGLI matrix to understand the correlation of selected vertices when they are close to each other.</p>
-								<p>Explanation of the picture above: The c1 value is responsible for changing frames from 0 to 336. In the Python code available on GitHub, you can manipulate this value to see how the bag mesh moves.</p>
-								<p>The first graph is the point cloud of ALL vertices, the second graph is the point cloud of 8 selected vertices, and the third graph is the dGLI matrix.</p>
+								<div style="border: 2px solid #ccc; padding: 15px; background-color: #f9f9f9; margin-top: 10px;">
+								    <p><strong>Explanation of the picture above:</strong> The c1 value is responsible for changing frames from 0 to 336. In the Python code available on GitHub, you can manipulate this value to see how the bag mesh moves.</p>
+								    <p>The first graph is the point cloud of ALL vertices, the second graph is the point cloud of 8 selected vertices, and the third graph is the dGLI matrix.</p>
+								</div>
 								<p>Steps I took:</p>
 								<ul>
 								    <li>First, I used the Blender environment to create a scene where the deformable bag mesh can be manipulated.</li>
